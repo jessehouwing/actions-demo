@@ -12,6 +12,7 @@ permissions:
 
 jobs:
   test:
+    name: Test ${{ github.run_number }}
     runs-on: ubuntu-latest
     steps:
     -  run: |
